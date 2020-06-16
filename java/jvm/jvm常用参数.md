@@ -7,6 +7,8 @@
 5. -XX:NewRatio 配置新生代与老年代在堆结构的占比 默认为2，即新生代占1，老年代栈2
 6. -XX:SurvivorRatio 调整新生代中Eden空间和另外两个Survivor空间所占比例，默认是8:1:1
 7. -XX:PrintGCDetails 打印垃圾回收信息
+8. -XX:+EliminateAllocations可以开启标量替换
+9. 
 
 
 
