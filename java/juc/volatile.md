@@ -1,3 +1,7 @@
+### 最终实现（atomic之类需要使用cas的方式）
+
+汇编指令 lock cmpxchg
+
 ### volatile两条实现原则
 
 1.Lock前缀指令会引起处理器缓存写回内存
